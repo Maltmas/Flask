@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Marks</title>
+</head>
+<body>
+
+<h1>Calculate average marks</h1>
+
+<form action="{{ url_for('calculate') }}" method="post">
+
+    <input type="text" name="maths" placeholder="Maths" required><br><br>
+    <input type="text" name="science" placeholder="Science" required><br><br>
+    <input type="text" name="english" placeholder="English" required><br><br>
+
+    <button type="submit">Calculate</button>
+
+</form>
+
+
+</body>
+</html>
